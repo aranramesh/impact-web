@@ -1,0 +1,39 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family:sans-serif;
+  box-sizing:border-box;
+  
+  
+}
+
+.container{
+  width: 1175px;
+  margin: auto;
+}
+.port-flex{
+	display:flex;
+	justify-content:space-between;
+	
+}
+.port{
+	width:33.33%;
+
+
+	
+}
+.port img{
+	width:100%;
+	padding: 10px;
+}
+button{
+	background-color:darkgray;
+    border: none;
+    height: 28px;
+    width: 40px;
+    color:#fff;
+	border-radius: 5px;
+}
+button:hover{
+	background-color: cornflowerblue;
+}
